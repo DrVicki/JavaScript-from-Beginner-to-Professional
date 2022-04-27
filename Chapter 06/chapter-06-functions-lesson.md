@@ -8,6 +8,8 @@ Write a function for yourself. We want to write a function that adds two numbers
   2. Set up two different variables with two different values.
   3. Use your function on the two variables, and output the result using ```console.log```.
   4. Create a second call to the function using two more numbers as arguments sent to the function.
+ 
+[Exercise_6.1.js Solution](https://github.com/DrVicki/JavaScript-from-Beginner-to-Professional/blob/main/Chapter%2006/Exercise_6.1.js)
 
 ## Practice exercise 6.2
 
@@ -18,6 +20,8 @@ We are going to create a program to randomly describe an inputted name.
   3. Select a random value from the array using ```Math.random```.
   4. Output into the console the prompt value and the randomly selected array value.
   5. Invoke the function.
+
+[Exercise_6.2.js Solution](https://github.com/DrVicki/JavaScript-from-Beginner-to-Professional/blob/main/Chapter%2006/Exercise_6.2.js)
 
 # Parameters & Arguments
 
@@ -34,6 +38,7 @@ The result of this function needs to be logged. Test your function by invoking i
   5. Within ```console.log()```, call the function using your variables and output the response to the console.
   6. Update the operator value to be the other operator type—either plus or minus—and call to the function again with the new updated arguments.
 
+[Exercise_6.3.js Solution](https://github.com/DrVicki/JavaScript-from-Beginner-to-Professional/blob/main/Chapter%2006/Exercise_6.3.js)
 
 # Return Function Values
 
@@ -96,6 +101,7 @@ Modify the calculator that you made in Practice exercise 6.2 to return added val
 
 You should see the values ```[0, 6, 14, 24, 36, 50, 66, 84, 104, 126]``` for the array in the console.
 
+[Exercise_6.4.js Solution](https://github.com/DrVicki/JavaScript-from-Beginner-to-Professional/blob/main/Chapter%2006/Exercise_6.4.js)
 
 # Recursive functions
 
@@ -189,6 +195,8 @@ How are recursive functions going to help us calculate the factorial?
   5. It could also contain a ```console.log()``` call to print the current value of the argument in the function as it gets invoked.
   6. Change and update the number to see how it affects the results.
 
+[Exercise_6.5.js Solution](https://github.com/DrVicki/JavaScript-from-Beginner-to-Professional/blob/main/Chapter%2006/Exercise_6.5.js)
+
 # Nested functions
 
 Just as with loops, ```if``` statements, and actually all other building blocks, we can have functions inside functions. This phenomenon is called **nested functions***:
@@ -226,6 +234,8 @@ Create a countdown loop starting at a dynamic value of ```10```.
   7. Update and create a second countdown using a condition ```if``` the value is greater than ```0```. If it is, decrease the value of the countdown by ```1```.
   8. Use ```return``` to return the function, which then invokes it again and again until the condition is no longer true.
   9. Make sure, when you send the new countdown value as an argument into the function, that there is a way out of the loop by using the ```return``` keyword and a condition to continue the loop if met.
+
+[Exercise_6.7.js Solution](https://github.com/DrVicki/JavaScript-from-Beginner-to-Professional/blob/main/Chapter%2006/Exercise_6.7.js)
 
 # Anonymous functions
 
@@ -268,3 +278,5 @@ It will simply output
   2. Create a function expression with one parameter that outputs a provided argument to the console.
   3. Pass an argument into the function.
   4. Create the same function as a normal function declaration.
+
+[Exercise_6.8.js Solution](https://github.com/DrVicki/JavaScript-from-Beginner-to-Professional/blob/main/Chapter%2006/Exercise_6.8.js)
